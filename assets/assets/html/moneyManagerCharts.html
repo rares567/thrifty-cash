@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/moneyManagerCharts.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main_body">
+        <div id="frame">
+
+            <h1>Daily</h1>
+            <div class="chart_row">
+                <div class="container_left">
+                    <canvas class="chart"></canvas>
+                </div>
+                <div class="container_right">
+                    <canvas class="chart"></canvas>
+                </div>
+                <div class="stats">
+                    <p>Income: </p><span class="income">$ 0</span><br>
+                    <p>Expense: </p><span class="expense">$ 0</span><br>
+                    <p>Savings: </p><span class="savings">$ 0</span>
+                </div>
+            </div>
+
+            <h1>Monthly</h1>
+            <div class="chart_row">
+                <div class="container_left">
+                    <canvas class="chart"></canvas>
+                </div>
+                <div class="container_right">
+                    <canvas class="chart"></canvas>
+                </div>
+                <div class="stats">
+                    <p>Income: </p><span class="income">$ 0</span><br>
+                    <p>Expense: </p><span class="expense">$ 0</span><br>
+                    <p>Savings: </p><span class="savings">$ 0</span>
+                </div>
+            </div>
+
+            <h1>All Time</h1>
+            <div class="chart_row">
+                <div class="container_left">
+                    <canvas class="chart"></canvas>
+                </div>
+                <div class="container_right">
+                    <canvas class="chart"></canvas>
+                </div>
+                <div class="stats">
+                    <p>Income: </p><span class="income">$ 0</span><br>
+                    <p>Expense: </p><span class="expense">$ 0</span><br>
+                    <p>Savings: </p><span class="savings">$ 0</span>
+                </div>
+            </div>
+
+            <div id="spacing"></div>
+
+        </div>
+    </div>
+    
+    <p id="error">There is nothing to display yet. Add a new transaction on the Transactions tab.</p>
+
+    <div id="options">
+        <p class="options_title" style="border: none">Transactions</p>
+        <p class="options_title">Charts</p>
+        <p class="options_title">Alert</p>
+    </div>
+
+    <div id="fixed">
+        <div id="calc_list">
+            <ul>
+                <li><a href="spendingPlan.html">Spending Plan</a></li>
+                <li><a href="currencyConverter.html">Currency Converter</a></li>
+            </ul>
+        </div>
+        <nav role="navigation">
+            <img src="../icons/calculator.ico" class="ico" id="calc_ico">
+            <img src="../icons/clipboard.ico" class="ico" id="note_ico">
+            <img src="../icons/manager.ico" class="ico" id="manager_ico">
+        </nav>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+<script src="../js/general.js"></script>
+<script src="../js/moneyManagerCharts.js"></script>
+</html>

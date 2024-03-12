@@ -1,0 +1,65 @@
+#main_body {
+    overflow: scroll;
+}
+
+#options {
+    display: table;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    border-bottom: 1px rgb(92, 92, 92) solid;
+}
+
+.options_title {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    width: 32%;
+    text-align: center;
+    border-left: 1px rgb(92, 92, 92) solid;
+}
+
+#frame {
+    position: relative;
+    left: 10%;
+    top: 5.6%;
+    width: 80%;
+}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15%;
+    margin-top: 20%;
+}
+
+.container_left {
+    display: inline-block;
+    width: 45%;
+}
+
+.container_right {
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    width: 45%;
+}
+
+.stats {
+    position: relative;
+    margin-bottom: 20%;
+}
+
+p {
+    margin: 3%;
+    display: inline-block;
+}
+
+#error {
+    position: relative;
+    top: 42%;
+    text-align: center;
+    display: none;
+}

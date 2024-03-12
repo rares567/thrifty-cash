@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+#main_body {
+    height: 90%;
+    overflow: scroll;
+}
+
+#frame {
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+
+.block {
+    margin-bottom: 5%;
+}
+
+.block2 {
+    margin-bottom: 10%;
+}
+
+.input_p {
+    font-size: 125%;
+    display: inline-block;
+}
+
+input {
+    text-align: center;
+    position: absolute;
+    right: 0%;
+    transform: translate(0, 15%);
+    font-size: 100%;
+    width: 30%;
+    border: solid grey 1px;
+}
+
+#calc_button {
+    font-family: Rubik, sans-serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 125%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 4%;
+    border: solid rgb(119, 0, 167) 2px;
+    border-radius: 50px;
+    background-color: rgb(119, 0, 167);
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#calc_button:active {
+    background-color: white;
+    color: rgb(119, 0, 167);
+}
+
+#results {
+    display: none;
+}
+
+.result_p {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 110%;
+    width: 55%;
+}
+
+#total_earn, #total_ess_exp, 
+#total_pers_exp, #total_savings {
+    position: absolute;
+    right: 0%;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 110%;
+    text-align: right;
+}
+
+#total_savings {
+    transform: translate(0,-30%);
+}

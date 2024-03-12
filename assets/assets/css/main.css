@@ -1,0 +1,79 @@
+#main_body {
+    display: table;
+}
+
+#frame {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#fact_div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 90%;
+}
+
+#fact_p {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    text-align: justify;
+}
+
+#fact_title {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    text-align: justify;
+    display: inline-block;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 300;
+    word-spacing: 0px;
+}
+
+/*nav {
+    display: table-row;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(119, 0, 167);
+}
+
+img {
+    position: relative;
+    height: 65%;
+    left: 4%;
+    top: 17.5%;
+}
+
+#calc_list {
+    display: none;
+    background-color: white;
+    position: relative;
+    bottom: 165%;
+    height: 95%;
+    width: 50%;
+    border-top: 1px rgb(92, 92, 92) solid;
+    border-right: 1px rgb(92, 92, 92) solid;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    transform: translate(-2px, 0);
+}
+
+li {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px rgb(92, 92, 92) solid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}*/

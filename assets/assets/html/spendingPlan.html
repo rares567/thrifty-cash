@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/spendingPlan.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main_body">
+        <div id="frame">
+
+            <h1>EARNINGS</h1>
+
+            <div class="block">
+                <label for="salary" class="input_p">Net Salary</label>
+                <input type="number" id="salary">
+            </div>
+            <div class="block">
+                <label for="bonus" class="input_p">Bonuses</label>
+                <input type="number" id="bonus">
+            </div>
+            <div class="block">
+                <label for="dividends" class="input_p">Dividends</label>
+                <input type="number" id="dividends">
+            </div>
+            <div class="block">
+                <label for="interest" class="input_p">Interest</label>
+                <input type="number" id="interest">
+            </div>
+            <div class="block">
+                <label for="other_earn" class="input_p">Other</label>
+                <input type="number" id="other_earn">
+            </div>
+
+            <h1>ESSENTIAL EXPENSES</h1>
+
+            <div class="block">
+                <label for="installment" class="input_p">Installments</label>
+                <input type="number" id="installment">
+            </div>
+            <div class="block">
+                <label for="phone" class="input_p">Phone Bill</label>
+                <input type="number" id="phone">
+            </div>
+            <div class="block">
+                <label for="water" class="input_p">Water Bill</label>
+                <input type="number" id="water">
+            </div>
+            <div class="block">
+                <label for="electricity" class="input_p">Electricity Bill</label>
+                <input type="number" id="electricity">
+            </div>
+            <div class="block">
+                <label for="gas" class="input_p">Gas Bill</label>
+                <input type="number" id="gas">
+            </div>
+            <div class="block">
+                <label for="property" class="input_p">Property Tax</label>
+                <input type="number" id="property">
+            </div>
+            <div class="block">
+                <label for="food" class="input_p">Food</label>
+                <input type="number" id="food">
+            </div>
+            <div class="block">
+                <label for="vehicle" class="input_p">Vehicle Expenses</label>
+                <input type="number" id="vehicle">
+            </div>
+            <div class="block">
+                <label for="health" class="input_p">Health</label>
+                <input type="number" id="health">
+            </div>
+            <div class="block">
+                <label for="other_exp_ess" class="input_p">Other</label>
+                <input type="number" id="other_ess_exp">
+            </div>
+
+            <h1>PERSONAL LIFE EXPENSES</h1>
+
+            <div class="block">
+                <label for="free" class="input_p">Free Time</label>
+                <input type="number" id="free">
+            </div>
+            <div class="block">
+                <label for="holiday" class="input_p">Holiday Savings</label>
+                <input type="number" id="holiday">
+            </div>
+            <div class="block">
+                <label for="clothes" class="input_p">Clothes</label>
+                <input type="number" id="clothes">
+            </div>
+            <div class="block">
+                <label for="hobby" class="input_p">Hobby</label>
+                <input type="number" id="hobby">
+            </div>
+            <div class="block">
+                <label for="other_exp_pers" class="input_p">Other</label>
+                <input type="number" id="other_pers_exp">
+            </div>
+
+            <button id="calc_button">Calculate</button>
+
+            <section id="results">
+
+                <h1>RESULTS</h1>
+
+                <div class="block2">
+                    <p class="result_p">Total Earnings:</p>
+                    <p id="total_earn"></p>
+                </div>
+                <div class="block2">
+                    <p class="result_p">Essential Expenses:</p>
+                    <p id="total_ess_exp"></p>
+                </div>
+                <div class="block2">
+                    <p class="result_p">Personal Life Expenses:</p>
+                    <p id="total_pers_exp"></p>
+                </div>
+                <div class="block2">
+                    <p class="result_p">Savings:</p>
+                    <p id="total_savings"></p>
+                </div>
+
+            </section>
+
+        </div>
+    </section>
+    
+    <div id="fixed">
+        <div id="calc_list">
+            <ul>
+                <li><a href="spendingPlan.html">Spending Plan</a></li>
+                <li><a href="currencyConverter.html">Currency Converter</a></li>
+            </ul>
+        </div>
+        <nav role="navigation">
+            <img src="../icons/calculator.ico" class="ico" id="calc_ico">
+            <img src="../icons/clipboard.ico" class="ico" id="note_ico">
+            <img src="../icons/manager.ico" class="ico" id="manager_ico">
+        </nav>
+    </div>
+</body>
+<script src="../js/general.js"></script>
+<script src="../js/spendingPlan.js"></script>
+</html>

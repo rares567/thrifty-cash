@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+    width: 100%;
+    margin: 0px;
+    float: left;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+}
+
+#fixed {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(119, 0, 167);
+}
+
+.ico {
+    position: relative;
+}
+
+#calc_list {
+    display: none;
+    background-color: white;
+    border-top: 1px rgb(92, 92, 92) solid;
+    border-right: 1px rgb(92, 92, 92) solid;
+    transform: translate(0, 20%);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    transform: translate(-2px, 0);
+}
+
+li {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px rgb(92, 92, 92) solid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,63 @@
+#options {
+    display: table;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    border-bottom: 1px rgb(92, 92, 92) solid;
+}
+
+.options_title {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    width: 32%;
+    text-align: center;
+    border-left: 1px rgb(92, 92, 92) solid;
+}
+
+#frame {
+    position: relative;
+    top: 33.7%;
+    left: 10%;
+    width: 80%;
+    height: 38%;
+}
+
+p {
+    display: inline-block;
+}
+
+span {
+    position: relative;
+    left: 5%;
+}
+
+input {
+    position: relative;
+    left: 5%;
+    font-family: Rubik, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    width: 13%;
+    border: none;
+    border-bottom: solid rgb(92, 92, 92) 3px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: solid orange 3px;
+}
+
+#check {
+    left: 0%;
+    transform: translate(-5%, 20%);
+}
+
+#alert_status {
+    left: 0%;
+}
+
+#aprox {
+    left: 40%;
+}

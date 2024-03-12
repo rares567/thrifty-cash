@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/settings.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main_body">
+        <div id="frame"> 
+            <h1>Settings</h1>
+            <div id="data">
+                <p>Save or load data:</p>
+                <button id="save">Save</button>
+                <button id="load">Load</button>
+                <input type="file" accept=".txt" id="file">
+            </div>
+
+            <footer>
+                <small>Made by Rares Banila</small>
+            </footer>
+            <!--log in form
+            <form id="login_page" onsubmit="event.preventDefault()">
+                <h1>You are not logged in yet</h1>
+                <label for="user" id="user_label">User:</label>
+                <input type="text" id="user" required><br>
+                <label for="pass" id="pass_label">Password:</label>
+                <input type="password" id="pass" required><br>
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember&nbsp;&nbsp;me</label><br>
+                <button type="submit" id="login">Log In</button>
+                <button type="submit" id="register">Register</button>
+            </form>-->
+        </div>
+    </div>
+
+    <div id="fixed">
+        <div id="calc_list">
+            <ul>
+                <li><a href="spendingPlan.html">Spending Plan</a></li>
+                <li><a href="currencyConverter.html">Currency Converter</a></li>
+            </ul>
+        </div>
+        <nav role="navigation">
+            <img src="../icons/calculator.ico" class="ico" id="calc_ico">
+            <img src="../icons/clipboard.ico" class="ico" id="note_ico">
+            <img src="../icons/manager.ico" class="ico" id="manager_ico">
+            <img src="../icons/profile.ico" class="ico" id="profile_ico">
+        </nav>
+    </div>
+</body>
+<script src="../js/general.js"></script>
+<script src="../js/settings.js"></script>
+</html>

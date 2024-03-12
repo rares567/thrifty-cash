@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/moneyManagerAlert.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main_body">
+        <div id="frame">
+            <p>Income:</p><span id="income">$ 0</span><br>
+            <p>Expense:</p><span id="expense">$ 0</span><br>
+            <p>Target Savings:</p>
+            <input type="number" value="25" id="savings_pct"><span>%</span><br>
+            <p>Target Expenses:</p><span id="expense_target">$ 0</span><br>
+            <span id="aprox">~&nbsp;&nbsp;$&nbsp;0&nbsp;per&nbsp;day</span><br>
+            <p>Alert status:</p>
+            <input type="checkbox" id="check"><span id="alert_status"></span>
+        </div>
+    </div>
+
+    <div id="options">
+        <p class="options_title" style="border: none">Transactions</p>
+        <p class="options_title">Charts</p>
+        <p class="options_title">Alert</p>
+    </div>
+
+    <div id="fixed">
+        <div id="calc_list">
+            <ul>
+                <li><a href="spendingPlan.html">Spending Plan</a></li>
+                <li><a href="currencyConverter.html">Currency Converter</a></li>
+            </ul>
+        </div>
+        <nav role="navigation">
+            <img src="../icons/calculator.ico" class="ico" id="calc_ico">
+            <img src="../icons/clipboard.ico" class="ico" id="note_ico">
+            <img src="../icons/manager.ico" class="ico" id="manager_ico">
+        </nav>
+    </div>
+</body>
+<script src="../js/general.js"></script>
+<script src="../js/moneyManagerAlert.js"></script>
+</html>

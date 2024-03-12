@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/moneyManager.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="options">
+        <p class="options_title" style="border: none">Transactions</p>
+        <p class="options_title">Charts</p>
+        <p class="options_title">Alert</p>
+    </div>
+
+    <section id="main_body">
+        <div id="frame">
+
+            <form class="trans_tab" onsubmit="addTransaction(event, 0)">
+                <h1>Income</h1>
+                <div class="block">
+                    <label for="date">Date:</label>
+                    <input class="date" disabled>
+                </div>
+                <div class="block">
+                    <label for="type">Type:</label>
+                    <select class="type" required>
+                        <option class="selected" style="display: none" selected></option>
+                        <option>Allowance</option>
+                        <option>Pension</option>
+                        <option>Salary</option>
+                        <option>Bonus</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="block">
+                    <label for="amt">Amount:</label>
+                    <input type="number" class="amount" required>
+                </div>
+                <button type="button" class="cancel">Cancel</button>
+                <button type="submit" class="add">Add</button>
+            </form>
+
+            <form class="trans_tab" onsubmit="addTransaction(event, 1)">
+                <h1>Expense</h1>
+                <div class="block">
+                    <label for="date">Date:</label>
+                    <input class="date" disabled>
+                </div>
+                <div class="block">
+                    <label for="type">Type:</label>
+                    <select class="type" required>
+                        <option class="selected" style="display: none" selected></option>
+                        <option>Food</option>
+                        <option>Social Life</option>
+                        <option>Self-development</option>
+                        <option>Transportation</option>
+                        <option>Household</option>
+                        <option>Clothing</option>
+                        <option>Beauty</option>
+                        <option>Health</option>
+                        <option>Education</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="block">
+                    <label for="amt">Amount:</label>
+                    <input type="number" class="amount" required>
+                </div>
+                <button type="button" class="cancel">Cancel</button>
+                <button type="submit" class="add">Add</button>
+            </form>
+
+            <!--adds spacing so user can scroll down more so button doesnt block-->
+            <div id="spacing"></div> 
+
+        </div>
+
+        <div id="delete_msg">
+            <p>Are you sure you want to delete this transaction?</p>
+            <button id="delete">Delete</button>
+        </div>
+
+        <div id="alert">
+            <p>Warning:<br>You have surpassed your daily spending limit</p>
+        </div>
+        
+        <div id="fixed_add">
+            <p class="add_popup" id="income">Income</p>
+            <p class="add_popup" id="expense">Expense</p>
+            <button id="add_button">+</button>
+        </div> 
+
+    </section>
+
+    <div id="fixed">
+        <div id="calc_list">
+            <ul>
+                <li><a href="spendingPlan.html">Spending Plan</a></li>
+                <li><a href="currencyConverter.html">Currency Converter</a></li>
+            </ul>
+        </div>
+        <nav role="navigation">
+            <img src="../icons/calculator.ico" class="ico" id="calc_ico">
+            <img src="../icons/clipboard.ico" class="ico" id="note_ico">
+            <img src="../icons/manager.ico" class="ico" id="manager_ico">
+        </nav>
+    </div>
+</body>
+<script src="../js/general.js"></script>
+<script src="../js/moneyManager.js"></script>
+</html>
